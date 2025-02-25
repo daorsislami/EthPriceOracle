@@ -1,0 +1,19 @@
+# Sensitive files
+.env
+*.env
+privateKey.txt
+secrets.js
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Hardhat/Blockchain
+artifacts/
+cache/
+deployments/
+typechain/
+
+# Local dev
+.vscode/
+.DS_Store
